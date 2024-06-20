@@ -11,6 +11,9 @@ accountEmail = "gyanesh@work.com"
 accountPassword = "123456"
 accountCity = "Mumbai"
 
+/* 
+Prefer not use of var because of issue in block scope & functional scope
+*/
 
 console.log(accountId);
 
