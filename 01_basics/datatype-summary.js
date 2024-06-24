@@ -20,25 +20,50 @@ let userEmail;
 const id = Symbol('123')
 const anotherId = Symbol('123')
 
-console.log(id === anotherId);
+//console.log(id === anotherId);
 
 // const bigNumber = 123123145645641231231231n
 /* 
 
 > NonPrimitive / Reference Type
 
-* Objects, Array, Functions
+-- Objects, Array, Functions
 
- */
+*/
 
-const heros = ["batman", "hulk", "captinamerica"];
+// const heros = ["batman", "hulk", "captinamerica"];
 
-let myObj = {
-    name: "Gyan",
-    age: 18,
+// let myObj = {
+//     name: "Gyan",
+//     age: 18,
+// }
+
+// const myFunction = function(){
+//     console.log("Thank you for watching)")
+// }
+// console.log (typeof bigNumber);
+
+// ================================================================
+
+// Stack (Primitive), Heap(Refrence/Non-Primitive)
+
+let myProject = "radhebio"
+
+let anothername = myProject
+anothername = "script"
+
+console.log(anothername);
+console.log(myProject);
+
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@rbl"
 }
 
-const myFunction = function(){
-    console.log("Thank you for watching)")
-}
-console.log (typeof bigNumber);
+let userTwo = userOne
+
+userTwo.email = "hulk@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);

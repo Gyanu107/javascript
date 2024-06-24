@@ -66,3 +66,14 @@ gameCounter++
 ++gameCounter
 
 console.log(gameCounter);
+
+
+// ================================================================
+
+// Stack (Primitive), Heap(Refrence/Non-Primitive)
+
+let myProject = "radhebhai"
+
+let anothorname = myProject
+
+console.log("anothorname);
