@@ -44,7 +44,6 @@ function addone(num) { // basic functions
 }
 
 addTwo(5)
-
 const addTwo = function(num){ // Expression
     return num + 2
 }
